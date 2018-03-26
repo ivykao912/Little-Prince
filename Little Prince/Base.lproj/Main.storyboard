@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Chalkduster.ttf">
+            <string>Chalkduster</string>
+        </array>
         <array key="GillSans.ttc">
             <string>GillSans</string>
         </array>
@@ -254,7 +257,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FTf-8q-xD8">
                                 <rect key="frame" x="38" y="376" width="304" height="228"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">The title character of The Little Prince is a pure and innocent traveler from outer space whom the narrator encounters in the Sahara desert. Before the little prince lands on Earth, Saint-Exupéry contrasts the prince’s childlike character with different adult characters by having the prince hop from one neighboring planet to another. On each planet, the prince meets a different type of adult and reveals that character’s frivolities and weaknesses. Once on Earth, however, the little prince becomes a student as well as a teacher. From his friend the fox, the little prince learns what love entails, and in turn he passes on those lessons to the narrator.
 
 The little prince has few of the glaring flaws evident in the other characters, and he is immediately shown to be a character of high caliber by his ability to recognize the narrator’s Drawing Number One as a picture of a boa constrictor that has eaten a snake. Nevertheless, the prince’s fear as he prepares to be sent back to his planet by a snakebite shows that he is susceptible to the same emotions as the rest of us. Most notably, the prince is bound by his love for the rose he has left on his home planet. His constant questioning also indicates that one’s search for answers can be more important than the answers themselves.</mutableString>
@@ -317,7 +320,7 @@ The little prince has few of the glaring flaws evident in the other characters, 
             </objects>
             <point key="canvasLocation" x="796" y="886.50674662668678"/>
         </scene>
-        <!--View Controller-->
+        <!--15 Quotable Quotes-->
         <scene sceneID="rZC-4e-XCh">
             <objects>
                 <viewController id="egH-By-qOr" customClass="ViewController" customModule="Little_Prince" customModuleProvider="target" sceneMemberID="viewController">
@@ -330,18 +333,18 @@ The little prince has few of the glaring flaws evident in the other characters, 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLJ-3a-pHP">
-                                <rect key="frame" x="59" y="155" width="261" height="65"/>
+                                <rect key="frame" x="58" y="139" width="261" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HpE-Nd-c1S">
-                                <rect key="frame" x="57" y="153" width="259" height="63"/>
+                                <rect key="frame" x="56" y="138" width="259" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHu-Kp-bZk">
-                                        <rect key="frame" x="22" y="11" width="214" height="40"/>
+                                        <rect key="frame" x="0.0" y="6" width="257" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="22"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="21"/>
                                         <state key="normal" title="15 Quotable Quotes">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -353,10 +356,10 @@ The little prince has few of the glaring flaws evident in the other characters, 
                                 <color key="backgroundColor" red="0.1519136874" green="0.2279927286" blue="0.46171009540000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.4016296446" green="0.48218304499999998" blue="0.57395300309999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Y1y-9S-veV"/>
                     </view>
-                    <navigationItem key="navigationItem" id="5fB-Ut-GXO"/>
+                    <navigationItem key="navigationItem" title="15 Quotable Quotes" id="5fB-Ut-GXO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qdc-d4-lhC" sceneMemberID="firstResponder"/>
             </objects>
@@ -445,7 +448,7 @@ The little prince has few of the glaring flaws evident in the other characters, 
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eqm-uz-ero">
                                 <rect key="frame" x="38" y="376" width="304" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">Although the rose appears only in a couple of chapters, she is crucial to the novel as a whole because her melodramatic, proud nature is what causes the prince to leave his planet and begin his explorations. Also, the prince’s memory of his rose is what prompts his desire to return. As a character who gains significance because of how much time and effort the prince has invested in caring for her, the rose embodies the fox’s statement that love comes from investing in other people. Although the rose is, for the most part, vain and naïve, the prince still loves her deeply because of the time he has spent watering and caring for her.
 
 Much has been written comparing the little prince’s relationship with his rose to the relationship between Antoine de Saint-Exupéry and his wife, Consuelo, but the rose can also be read as a symbol of universal love. In literature, the rose has long served as a symbol of the beloved, and Saint-Exupéry takes that image in good stride, giving the prince’s flower human characteristics, both good and bad. Because of the rose, the prince learns that what is most essential is invisible, that time away from one’s beloved causes a person to better appreciate that love, and that love engenders responsibility—all of which are broad morals that obviously extend beyond the author’s personal history.</mutableString>
@@ -487,7 +490,7 @@ Much has been written comparing the little prince’s relationship with his rose
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Lf2-gc-jhe">
                                 <rect key="frame" x="38" y="376" width="304" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">The fox appears quite suddenly and inexplicably while the prince is mourning the ordinariness of his rose after having come across the rose garden. When the fox immediately sets about establishing a friendship between himself and the prince, it seems that instruction is the fox’s sole purpose. Yet when he begs the little prince to tame him, the fox appears to be the little prince’s pupil as well as his instructor. In his lessons about taming, the fox argues for the importance of ceremonies and rituals, showing that such tools are important even outside the strict world of grown-ups.
 
 In his final encounter with the prince, the fox facilitates the prince’s departure by making sure the prince understands why his rose is so important to him. This encounter displays an ideal type of friendship because even though the prince’s departure causes the fox great pain, the fox behaves unselfishly, encouraging the prince to act in his own best interest.</mutableString>
@@ -518,14 +521,10 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yNe-nf-3eC">
-                                <rect key="frame" x="51" y="376" width="304" height="250"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bio" translatesAutoresizingMaskIntoConstraints="NO" id="r0V-Sy-jJV">
+                                <rect key="frame" x="-110" y="-89" width="619" height="629"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">The first human to discover the prince’s home, Asteroid B-612. When the Turkish astronomer first presents his discovery, no one believes him on account of his Turkish costume. Years later, he makes the same presentation wearing Western clothes, and his discovery is well received. The scientific community’s treatment of the Turkish astronomer reveals that ignorance propels xenophobia (a fear or hatred of foreigners) and racism.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Turkish Astronomer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bpo-S6-Fo4">
                                 <rect key="frame" x="105" y="347" width="188" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -533,10 +532,14 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bio" translatesAutoresizingMaskIntoConstraints="NO" id="r0V-Sy-jJV">
-                                <rect key="frame" x="-110" y="-89" width="619" height="629"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yNe-nf-3eC">
+                                <rect key="frame" x="51" y="376" width="304" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The first human to discover the prince’s home, Asteroid B-612. When the Turkish astronomer first presents his discovery, no one believes him on account of his Turkish costume. Years later, he makes the same presentation wearing Western clothes, and his discovery is well received. The scientific community’s treatment of the Turkish astronomer reveals that ignorance propels xenophobia (a fear or hatred of foreigners) and racism.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="X0A-ew-pdW"/>
@@ -554,25 +557,25 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gbc-v9-6dj">
-                                <rect key="frame" x="38" y="376" width="304" height="250"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="king" translatesAutoresizingMaskIntoConstraints="NO" id="Njg-Sk-nOG">
+                                <rect key="frame" x="49" y="106" width="301" height="298"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gbc-v9-6dj">
+                                <rect key="frame" x="43" y="430" width="304" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">On the first planet the little prince visits, he encounters a king who claims to rule the entire universe. While not unkindly, the king’s power is empty. He is able to command people to do only what they already would do.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The King" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXk-IP-Fnb">
-                                <rect key="frame" x="151" y="347" width="79" height="21"/>
+                                <rect key="frame" x="156" y="401" width="79" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="king" translatesAutoresizingMaskIntoConstraints="NO" id="Njg-Sk-nOG">
-                                <rect key="frame" x="44" y="52" width="301" height="298"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="563-2h-HuX"/>
@@ -591,19 +594,19 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="7L7-LX-reA">
-                                <rect key="frame" x="24" y="32" width="327" height="324"/>
+                                <rect key="frame" x="24" y="88" width="327" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jk5-rJ-u9l">
-                                <rect key="frame" x="38" y="376" width="304" height="250"/>
+                                <rect key="frame" x="38" y="432" width="304" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">The sole resident of the second planet the little prince visits. The vain man is lonely and craves admiration from all who pass by. However, only by being alone is he assured of being the richest and best-looking man on his planet.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Vain Man" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aco-JP-IJm">
-                                <rect key="frame" x="139" y="347" width="114" height="21"/>
+                                <rect key="frame" x="139" y="403" width="114" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -626,25 +629,25 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jU6-VS-tXF">
-                                <rect key="frame" x="51" y="376" width="304" height="250"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drunk" translatesAutoresizingMaskIntoConstraints="NO" id="YlZ-cV-aj2">
+                                <rect key="frame" x="-48" y="25" width="470" height="478"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">The third person the little prince encounters after leaving home is a drunkard, who spends his days and nights lost in a stupor. The drunkard is a sad figure, but he is also foolish because he drinks to forget that he is ashamed of drinking.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Drunkard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNG-3i-KI2">
-                                <rect key="frame" x="151" y="347" width="99" height="21"/>
+                                <rect key="frame" x="155" y="388" width="99" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drunk" translatesAutoresizingMaskIntoConstraints="NO" id="YlZ-cV-aj2">
-                                <rect key="frame" x="-52" y="-16" width="470" height="478"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jU6-VS-tXF">
+                                <rect key="frame" x="43" y="417" width="304" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">The third person the little prince encounters after leaving home is a drunkard, who spends his days and nights lost in a stupor. The drunkard is a sad figure, but he is also foolish because he drinks to forget that he is ashamed of drinking.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="pX8-yS-IU3"/>
@@ -669,7 +672,7 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cgZ-bk-rdp">
                                 <rect key="frame" x="38" y="376" width="304" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">A caricature of grown-ups who is the fourth person the little prince visits. Too busy even to greet his visitor, the businessman owns all the stars. Yet he cannot remember what they are called and contributes nothing to them. Although the little prince comments on the oddity of the grown-ups he meets, the businessman is the only character the prince actively chastises.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -698,8 +701,12 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lighter" translatesAutoresizingMaskIntoConstraints="NO" id="k6c-rI-52Q">
+                                <rect key="frame" x="52" y="100" width="283" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Avc-Nb-GSk">
-                                <rect key="frame" x="38" y="376" width="304" height="250"/>
+                                <rect key="frame" x="35" y="417" width="304" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">The fifth and most complex figure the prince encounters before landing on Earth. At first, the lamplighter appears to be yet another ridiculous character with no real purpose, but his selfless devotion to his orders earns him the little prince’s admiration. Of all the adults the little prince encounters before reaching Earth, the lamplighter is the only one the prince thinks he could befriend.</mutableString>
@@ -707,16 +714,12 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Lamplighter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSd-hi-lfN">
-                                <rect key="frame" x="139" y="347" width="114" height="21"/>
+                                <rect key="frame" x="136" y="388" width="114" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lighter" translatesAutoresizingMaskIntoConstraints="NO" id="k6c-rI-52Q">
-                                <rect key="frame" x="55" y="59" width="283" height="280"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="YVa-6E-anE"/>
@@ -726,11 +729,11 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
             </objects>
             <point key="canvasLocation" x="4047.1999999999998" y="115.59220389805098"/>
         </scene>
-        <!--Item-->
+        <!--Characters-->
         <scene sceneID="PMT-uo-pM8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jkd-ia-FNz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Qy4-f0-YVM"/>
+                    <tabBarItem key="tabBarItem" title="Characters" image="master" id="Qy4-f0-YVM"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cra-jp-B99">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -764,11 +767,11 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
             </objects>
             <point key="canvasLocation" x="-686" y="116"/>
         </scene>
-        <!--Item-->
+        <!--The Story-->
         <scene sceneID="Hkd-KC-pnI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ppt-88-erh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="a8R-w5-OqF"/>
+                    <tabBarItem key="tabBarItem" title="The Story" image="diary" id="a8R-w5-OqF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NIA-lP-oDy">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -783,11 +786,11 @@ In his final encounter with the prince, the fox facilitates the prince’s depar
             </objects>
             <point key="canvasLocation" x="33" y="887"/>
         </scene>
-        <!--Item-->
+        <!--Quotes-->
         <scene sceneID="Xcv-01-xj9">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jpl-qO-wkr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="0e1-iN-UyJ"/>
+                    <tabBarItem key="tabBarItem" title="Quotes" image="tag" id="0e1-iN-UyJ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="E7d-MG-IgV">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -1061,12 +1064,15 @@ The narrator takes comfort when he cannot find the prince’s body the next day 
         <image name="bio" width="500" height="500"/>
         <image name="bussiness" width="500" height="500"/>
         <image name="cover-img-1" width="520" height="686"/>
+        <image name="diary" width="30" height="30"/>
         <image name="drunk" width="500" height="500"/>
         <image name="face" width="500" height="500"/>
         <image name="fox" width="500" height="500"/>
         <image name="king" width="500" height="500"/>
         <image name="lighter" width="500" height="500"/>
+        <image name="master" width="30" height="30"/>
         <image name="prince" width="500" height="500"/>
         <image name="rose" width="500" height="500"/>
+        <image name="tag" width="30" height="30"/>
     </resources>
 </document>
